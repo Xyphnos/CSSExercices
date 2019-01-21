@@ -1,0 +1,97 @@
+#bodi{
+    background-image: url("http://www.hdwallpaperslife.com/wp-content/uploads/2018/09/purple_starry_sky.jpg");
+    background-repeat: no-repeat;
+}
+#cont{
+    display: flex;
+    height: 550px;
+    width: 550px;
+    min-width: 550px;
+    min-height: 550px;
+    margin-top: 200px;
+}
+#buttons{
+    height: 204px;
+    width: 130px;
+    display: inline;
+    position: fixed;
+    left: calc(50% - 330px);
+}
+.button{
+    margin-top: 4px;
+    height: 30px;
+    width: 125px;
+    text-align: left;
+    background-color: dodgerblue;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+}
+#one{
+    margin-top: 0;
+}
+#wide{
+    height: 30px;
+    width: 330px;
+    background-color: dodgerblue;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+#ui{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: inline;
+    position: fixed;
+    left: calc(50% - 200px);
+    height: 500px;
+    width: 400px;
+}
+#profile{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: calc(30% - 75px);
+}
+#hl{
+    color: dodgerblue;
+}
+#large{
+    font-family: "Agency FB";
+}
+#smaller{
+    font-family: "Agency FB";
+    margin-top: -15px;
+    font-size: medium;
+}
+#divisor{
+    border: 0; height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.media{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+border-style: none}
+#tw{
+    background-image: url("https://empow-her.com/wp-content/uploads/2017/03/twitter-logo-button-2.png");
+    background-size: cover;
+}
+#fa{
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/logo-facebook-gris-png-4.png");
+    background-size: cover;
+}
+#ig{
+    background-image: url("https://seeklogo.com/images/I/instagram-logo-E0067A1403-seeklogo.com.png");
+    background-size: cover;
+}
+#yt{
+    background-image: url("http://merlefest.org/wp-content/plugins/merlefest-lineup/images/youtube_grey.png");
+    background-size: cover;
+}
