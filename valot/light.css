@@ -1,0 +1,129 @@
+body{
+    height: 100%;
+    background-image: linear-gradient(lightskyblue, blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#lights{
+    right: 10%;
+    top: 15%;
+    position: absolute;
+    z-index: -1;
+}
+#boxi{
+    height: 350px;
+    width: 130px;
+    background-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: grey;
+}
+#red{
+     height: 90px;
+     width: 90px;
+     margin-top: 20px;
+     margin-right: 20px;
+     margin-left: 20px;
+     background-color: red;
+    background: hsla(0, 100%, 47%, 0.1);
+    background-image: radial-gradient(hsla(0, 100%, 47%, 1.00) 5%, transparent 100%);
+    background-size: 5px 5px;
+     border-radius: 50%;
+    -moz-box-shadow:  inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+#red:active{
+    background-color: red;
+}
+#yellow{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: yellow;
+    background: hsla(50, 100%, 47%, 0.1);
+    background-image: radial-gradient(hsla(50, 100%, 47%, 1.00) 5%, transparent 100%);
+    background-size: 5px 5px;
+    border-radius: 50%;
+    -moz-box-shadow:  inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+#yellow:active{
+    background-color: yellow;
+}
+#green{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: green;
+    background: hsla(120, 100%, 47%, 0.1);
+    background-image: radial-gradient(hsla(120, 100%, 47%, 1.00) 5%, transparent 100%);
+    background-size: 5px 5px;
+    border-radius: 50%;
+    -moz-box-shadow:  inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+#green:active{
+    background-color: green;
+}
+#pole{
+    height: 500px;
+    width: 25px;
+    background-color: black;
+    margin-left: 60px;
+}
+#mountain{
+    background-color: green;
+    height: 50%;
+    width: 60%;
+    z-index: -3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 90%;
+}
+#mountain2{
+    background-color: lawngreen;
+    height: 50%;
+    width: 60%;
+    z-index: -2;
+    position: absolute;
+    border-top-right-radius: 90%;
+    left: 0;
+    bottom: 0;
+}
+#sun{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: calc(50% - 100px);
+    right: calc(50% - 100px);
+    z-index: -4;
+    border-radius: 50%;
+    box-shadow: inset 0 0 80px yellow, 0 0 1000px yellow;
+}
+#info{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background: rgba(204, 204, 204, 0.4);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    bottom: 2%;
+    left: 2%;
+}
+#traffic{
+    font-size: 100px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    z-index: 1;
+}
